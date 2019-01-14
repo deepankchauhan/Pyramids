@@ -6,8 +6,8 @@ int main(void)
     // this prompts the user to give an input
     do
     {
-         printf("height: ");
-        while(scanf("%d",&height) != 1)
+        printf("height: ");
+        while(scanf("%d", &height) != 1)
         {
             printf("height: ");
             while(getchar() != '\n');
@@ -23,6 +23,7 @@ int main(void)
         {
             printf(" ");
         }
+        
         // this adds the '#'
         for (int hash = 0; hash <= rows + 1; hash++)
         {
@@ -31,6 +32,5 @@ int main(void)
         // moves it to the next line
         printf("\n");
     }
-
     return 0;
 }
