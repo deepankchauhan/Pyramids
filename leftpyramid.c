@@ -6,8 +6,8 @@ int main(void)
     // this prompts the user to give an input
     do
     {
-         printf("height: ");
-        while(scanf("%d",&height) != 1)
+        printf("height: ");
+        while(scanf("%d", &height) != 1)
         {
             printf("height: ");
             while(getchar() != '\n');
