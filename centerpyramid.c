@@ -7,7 +7,7 @@ int main(void)
     // this prompts user to give an input
     do
     {
-        do
+        do 
         {
             printf("height:");
             while(getchar() != '\n');
